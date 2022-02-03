@@ -59,7 +59,7 @@
   
   height: 50vh;
   width: 100%;
-  background-image: url(../assets/images/ham.jpg);
+  background-image: url(../assets/images/meat-banner.jpg);
   background-repeat: no-repeat;
 }
 

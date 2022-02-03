@@ -1,19 +1,41 @@
 <div class="gallery">
   <div class="content">
-    <img src="./assets/images/logo.png">
+    <img src="./assets/images/meat.jpg">
     <h3>Shoes</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     <h6>$100.00</h6>
-    <!-- <ul>
+    <ul>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
-    </ul> -->
+    </ul>
     <button class="buy-1">Buy Now</button>
   </div>
   </div>
+
+
+
+
+
+  <div class="gallery">
+    <div class="content">
+      <img src="./assets/images/meat.jpg">
+      <h3>Shoes</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <h6>$100.00</h6>
+      <ul>
+        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      </ul>
+      <button class="buy-1">Buy Now</button>
+    </div>
+    </div>
+  
 
 
       <style>
@@ -28,13 +50,18 @@
       }
      
       .gallery{
+      
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      justify-content: center;
-      align-items: center;
+      justify-content: left;
+      align-items: left;
       margin: 50px 0;
       }
+
+
+
+    
       .content{
       width: 24%;
       margin: 15px;
