@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "welearn";
+    src: url(fonts/WebYekan.woff) format("woff");
+}
+
+@font-face {
+    font-family: iranSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/iranSans/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/iranSans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/iranSans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), 
+    url('../fonts/iranSans/woff/IRANSansWeb_Medium.woff') format('woff'), 
+    url('../fonts/iranSans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+   }
+   @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/Vazir-Bold.woff2') format('woff2'), 
+    url('../fonts/Vazir-Bold.woff') format('woff'), 
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+   }
