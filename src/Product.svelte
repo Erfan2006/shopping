@@ -31,6 +31,16 @@
      
       
 
+      .gallery{
+      
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: right;
+      align-items: right;
+      
+      }
+
 
 
     

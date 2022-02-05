@@ -5,23 +5,37 @@
 	
 	</script>
 
+
+
 <Navigation />
 <Header />
 
+
+<div class="gallery">
+
 <Cart />
+<Cart /> 
+<Cart /> 
+
+</div>
+
 
 
 
 
 <style>
 	
-	.gallery{
+
+      
+	
+    
+      .gallery{
       
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      justify-content: center;
-      align-items: center;
+      justify-content: right;
+      align-items: right;
       
       }
 
