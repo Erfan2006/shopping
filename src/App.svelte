@@ -1,17 +1,29 @@
 <script>
 	import Navigation from "./NavigationBar.svelte"
 	import Header from "./Header.svelte"
-	import Cart from "./Shoppingcart.svelte"
-	import Cart from "./Shoppingcart2.svelte"
+	import Cart from "./Product.svelte"
 	
 	</script>
 
 <Navigation />
 <Header />
+
 <Cart />
-<Cart />
+
+
 
 
 <style>
 	
+	.gallery{
+      
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      
+      }
+
+
 	</style>
