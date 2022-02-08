@@ -2,12 +2,11 @@
     
 </script>
 <header>
-<!-- svelte-ignore a11y-missing-attribute -->
 <a class="header">
     <a class="logo">
       logo
     </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
       <li><a href="#mainpage">صفحه اصلی</a></li>
@@ -19,7 +18,11 @@
 
 <style>
 
-
+body {
+  margin: 0;
+  font-family: 'iranSans', sans-serif;
+  background-color: #f4f4f4;
+}
 
 a {
   color: #000;

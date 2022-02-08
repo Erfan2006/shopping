@@ -2,7 +2,7 @@
 	import Navigation from "./NavigationBar.svelte"
 	import Header from "./Header.svelte"
 	import Cart from "./Product.svelte"
-	import Banner from "./Centerbanner"
+	import Banner from "./Centerbanner.svelte"
 	</script>
 
 
@@ -25,7 +25,7 @@
 
 </div>
 
-<Banner />
+<Banner	 />
 
 
 
