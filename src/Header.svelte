@@ -16,7 +16,7 @@
 
       <div class="leftside d-flex justify-content-center align-items-center">
 
-         
+          
       </div>
 
   </div>

@@ -1,19 +1,18 @@
-<div class="gallery">
+<script>
+
+
+</script>
   <div class="content">
-    <img src="./assets/images/meat.jpg">
-    <h3>Shoes</h3>
+    <!-- svelte-ignore a11y-missing-attribute -->
+    <img src="./assets/images/meat.jpg"/>
+    <h3>Meat</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     <h6>$100.00</h6>
-    <ul>
-      <li><i class="fa fa-star" aria-hidden="true"></i></li>
-      <li><i class="fa fa-star" aria-hidden="true"></i></li>
-      <li><i class="fa fa-star" aria-hidden="true"></i></li>
-      <li><i class="fa fa-star" aria-hidden="true"></i></li>
-      <li><i class="fa fa-star" aria-hidden="true"></i></li>
-    </ul>
     <button class="buy-1">Buy Now</button>
   </div>
-  </div>
+
+  
+  
 
   
 
@@ -31,22 +30,13 @@
      
       
 
-      .gallery{
-      
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: right;
-      align-items: right;
-      
-      }
 
 
 
     
       .content{
-      width: 30%;
-      margin: 15px;
+      width: 24%;
+      margin: 6px;
       box-sizing: border-box;
       float: left;
       text-align: center;
@@ -106,7 +96,7 @@
       }
       @media(max-width: 750px){
       .content{
-      width: 100%;
+      width: 46%;
       }
       }
 

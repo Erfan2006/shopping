@@ -1,10 +1,13 @@
 <script>
     
 </script>
-
-<header class="header">
-    <a href="" class="login">Logo</a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
+<header>
+<!-- svelte-ignore a11y-missing-attribute -->
+<a class="header">
+    <a class="logo">
+      logo
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
       <li><a href="#mainpage">صفحه اصلی</a></li>
@@ -16,11 +19,7 @@
 
 <style>
 
-body {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: #f4f4f4;
-}
+
 
 a {
   color: #000;
@@ -56,7 +55,7 @@ a {
   background-color: #f4f4f4;
 }
 
-.header .login {
+.header .logo {
   display: block;
   float: left;
   font-size: 2em;
@@ -67,6 +66,7 @@ a {
 /* menu */
 
 .header .menu {
+  font-family: 'iranSans', sans-serif;
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
