@@ -3,12 +3,14 @@
 	import Header from "./Header.svelte"
 	import Cart from "./Product.svelte"
 	import Banner from "./Centerbanner.svelte"
+	import Coupon from "./coupon.svelte"
 	</script>
 
 
 
 <Navigation />
 <Header />
+
 
 
 
@@ -26,6 +28,18 @@
 </div>
 
 <Banner	 />
+
+<div class="coupon">
+
+	<Coupon />
+	<Coupon />
+	<Coupon />
+	<Coupon />
+	
+
+
+</div>
+
 
 
 
@@ -55,6 +69,7 @@
       align-items: right;
       
       }
+
 
 
 

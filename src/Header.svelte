@@ -30,7 +30,19 @@
     <div class="text">
   
       
+
+      <div class="Separator d-flex justify-content-center align-items-center">
   
+        ‌
+        online Shopping !!!
+      
+      
+      </div>
+    
+  
+
+
+
   </div>
 
          
@@ -43,13 +55,7 @@
 </div>
 
 
-<div class="Separator d-flex justify-content-center align-items-center">
-  
-  ‌
-  online Shopping !
 
-
-</div>
 
 
 <style>
@@ -93,6 +99,7 @@
   font-size: 22px;
 }
 
+  
 
 
 

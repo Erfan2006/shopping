@@ -20,6 +20,7 @@
 .banner {
   display: flex;
   position: relative;
+  padding-top: 28px;
 }
 .banner img{
   width: 100%;

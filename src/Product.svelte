@@ -3,7 +3,6 @@
 
 </script>
   <div class="content">
-    <!-- svelte-ignore a11y-missing-attribute -->
     <img src="./assets/images/meat.jpg"/>
     <h3>Meat</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
