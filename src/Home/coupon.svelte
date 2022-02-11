@@ -38,29 +38,32 @@
             float: right;
     }
 
+    @media screen and (max-width: 991px) {
 
-
-
-    @media(max-width: 1000px){
       .main{
-      width: 46%;
+        max-width: 200px;
       }
-      }
+     
+
+}
+
+@media screen and (max-width: 767px) {
 
 
-      @media(max-width: 750px){
-      .main{
-      width: 100%;
-      align-items: center;
-      }
+
+  .main{
+        max-width: 210px;
       }
 
-      @media screen and (max-width: 479px) {
+}
 
-        .main{
-      width: 100%;
-      
+@media screen and (max-width: 479px) {
+
+
+  .main{
+        max-width: 350px;
       }
-    }
+
+}
 
     </style>

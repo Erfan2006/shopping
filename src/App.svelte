@@ -1,76 +1,23 @@
+<!-- App.svelte -->
 <script>
-	import Navigation from "./NavigationBar.svelte"
-	import Header from "./Header.svelte"
-	import Cart from "./Product.svelte"
-	import Banner from "./Centerbanner.svelte"
-	import Coupon from "./coupon.svelte"
-	</script>
-
-
-
-<Navigation />
-<Header />
-
-
-
-
-<div class="gallery">
-
-<Cart />
-<Cart /> 
-<Cart /> 
-<Cart />
-<Cart /> 
-<Cart />
-<Cart /> 
-<Cart />
-
-</div>
-
-<Banner	 />
-
-<div class="coupon">
-
-	<Coupon />
-	<Coupon />
-	<Coupon />
-	<Coupon />
-	
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<style>
-
-
-@font-face {
-		font-family: 'iranSans';
-		src: url("./IRANSansWeb_Medium.ttf") format("ttf");
-		font-style: normal;
-	}
-	
-    
-      .gallery{
-      
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: right;
-      align-items: right;
-      
-      }
-
-
-
-
-	</style>
+    import { Router, Link, Route } from "svelte-routing";
+    import productList from "./prouductList.svelte";
+    import About from "./routes/About.svelte";
+    import Blog from "./routes/Blog.svelte";
+  
+    export let url = "";
+  </script>
+  
+  <Router url="{url}">
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="about">About</Link>
+      <Link to="blog">Blog</Link>
+    </nav>
+    <div>
+      <Route path="blog/:id" component="{BlogPost}" />
+      <Route path="blog" component="{Blog}" />
+      <Route path="about" component="{About}" />
+      <Route path="/"><productList /></Route>
+    </div>
+  </Router>

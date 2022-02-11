@@ -10,7 +10,7 @@
 <div class="Separator d-flex justify-content-center align-items-center">
   
     ‌
-    online Shopping !!!!!!!!!
+    online Shopping !!!
   
   
   </div>
