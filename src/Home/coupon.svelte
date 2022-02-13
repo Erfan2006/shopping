@@ -34,7 +34,7 @@
     .main {
             width: 800%;
             padding: 20px;
-            max-width: 310px;
+            max-width: 110px;
             float: right;
     }
 
