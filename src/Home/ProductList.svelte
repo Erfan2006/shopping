@@ -1,9 +1,9 @@
 <script>
-	import Navigation from "./Home/NavigationBar.svelte"
-	import Header from "./Home/Header.svelte"
-	import Cart from "./Home/Product.svelte"
-	import Banner from "./Home/Centerbanner.svelte"
-	import Coupon from "./Home/coupon.svelte"
+	import Navigation from "/NavigationBar.svelte"
+	import Header from "./Header.svelte"
+	import Cart from "./Product.svelte"
+	import Banner from "./Centerbanner.svelte"
+	import Coupon from "./coupon.svelte"
 	</script>
 
 
