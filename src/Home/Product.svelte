@@ -1,13 +1,22 @@
 <script>
 
 
+import { navigate } from "svelte-routing";
+
+function navigateToMainpage(){
+
+    navigate("/Mainpage"); 
+
+    
+}
+
 </script>
   <div class="content">
     <img src="./assets/images/meat.jpg"/>
     <h3>Meat</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     <h6>$100.00</h6>
-    <button class="buy-1">Buy Now</button>
+    <button class="buy" on:click="{navigateToMainpage}"> Click me</button>
   </div>
 
   
@@ -27,11 +36,6 @@
       padding-top: 10px;
       }
      
-      
-
-
-
-
     
       .content{
       width: 24%;
@@ -84,7 +88,7 @@
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
       }
-      .buy-1{
+      .buy{
       background-color: #2183a2;
       }
   

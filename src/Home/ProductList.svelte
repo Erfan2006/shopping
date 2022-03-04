@@ -1,5 +1,5 @@
 <script>
-	import Navigation from "/NavigationBar.svelte"
+	import Navigation from "./NavigationBar.svelte"
 	import Header from "./Header.svelte"
 	import Cart from "./Product.svelte"
 	import Banner from "./Centerbanner.svelte"

@@ -6,7 +6,7 @@ import { navigate } from "svelte-routing";
 
 function navigateToProductList(){
 
-    navigate("/productList"); 
+    navigate("/products"); 
 
     
 }
@@ -17,7 +17,7 @@ function navigateToProductList(){
 
 <button type="button">Click</button>
 
-<button on:click="{navigateToProductList}"> Click</button>
+<button on:click="{navigateToProductList}"> Click me</button>
 
 
 <style>

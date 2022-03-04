@@ -34,14 +34,14 @@
     .main {
             width: 800%;
             padding: 20px;
-            max-width: 110px;
+            max-width: 410px;
             float: right;
     }
 
     @media screen and (max-width: 991px) {
 
       .main{
-        max-width: 200px;
+        max-width: 245px;
       }
      
 
@@ -52,7 +52,7 @@
 
 
   .main{
-        max-width: 210px;
+        max-width: 240px;
       }
 
 }
@@ -61,7 +61,7 @@
 
 
   .main{
-        max-width: 350px;
+        max-width: 250px;
       }
 
 }
