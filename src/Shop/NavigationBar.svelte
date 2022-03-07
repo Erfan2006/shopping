@@ -73,7 +73,7 @@
             
         
             <li class="nav-item">
-                <a class="nav-link" href="./Home/ProductList">Shop</a>
+                <a class="nav-link" href="./Cart/Shop">Shop</a>
             </li>
 
 

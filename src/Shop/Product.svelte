@@ -3,9 +3,9 @@
 
   import { navigate } from "svelte-routing";
   
-  function navigateTodropdowncart() {
+  function navigateToMainpage(){
   
-      navigate("/dropdowncart"); 
+      navigate("/Mainpage"); 
   
       
   }
@@ -16,7 +16,7 @@
       <h3>Meat</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       <h6>$100.00</h6>
-      <button class="buy" on:click="{navigateTodropdowncart}">BUY</button>
+      <button class="buy" on:click="{navigateToMainpage}">BUY</button>
     </div>
   
     

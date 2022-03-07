@@ -1,5 +1,6 @@
 <script>
 	import Navigation from "./NavigationBar.svelte"
+	import Shoppingcart from "./Shoppingcart.svelte"
 	import Header from "./Header.svelte"
 	import Cart from "./Product.svelte"
 	import Banner from "./Centerbanner.svelte"
@@ -7,8 +8,9 @@
 	</script>
 
 
-
+<Shoppingcart />
 <Navigation />
+
 <Header />
 
 
